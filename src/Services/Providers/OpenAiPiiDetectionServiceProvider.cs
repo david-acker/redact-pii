@@ -20,8 +20,8 @@ internal sealed class OpenAiPiiDetectionServiceProvider : IPiiDetectionServicePr
         var userMessage = $"""
                            You are detecting personally identifiable information (PII) in the provided text.
                            List each token or group of tokens in the text that may to contain PII (example: credit card numbers, security codes, names, addresses).
-                           To not modify or change the text in any way, or add labels.
-                           Exclude labels, descriptive text, other other text elements which may be used to refer to or label PII, but are not actually PII themselves (example: "Card number", "Expiration", "Country").
+                           Do not modify or change the text in any way, or add labels.
+                           Exclude labels, descriptive text, other other text elements which may refer to or label PII, but are not actually PII themselves (example: "Card number", "Expiration", "Country").
                            Also exclude text artifacts, incorrectly extracted text, or miscellaneous text which is unrelated to the PII.
                            Display each piece of PII as-is with no additional quotes, symbols, or other characters:
                            
