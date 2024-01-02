@@ -1,5 +1,7 @@
 # Blur PII
 
+🚧 Under Construction 🚧
+
 ## Usage
 
 POST to the `/redact-pii` endpoint and providing an image in the form data, using the key "file". The endpoint will redact any PII detected in the image, using solid black rectangles, and return the redacted image as a PNG.
