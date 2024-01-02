@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "efbadb71-d43e-4d14-8eba-1b95bd6762b9",
+		"name": "Redact PII",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14677258"
+	},
+	"item": [
+		{
+			"name": "Redact PII",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": []
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5058/redact-pii",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5058",
+					"path": [
+						"redact-pii"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
