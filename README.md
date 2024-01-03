@@ -8,6 +8,13 @@ POST to the `/redact-pii` endpoint and providing an image in the form data, usin
 
 A Postman collection with a request for the endpoint is included in the [samples](/samples) folder for convenience.
 
+## Example
+
+<div>
+  <img src="/samples/credit-card-input/unredacted.png" alt="unredacted screenshot of credit card form" width="350px" />
+  <img src="/samples/credit-card-input/redacted-openai.png" alt="unredacted screenshot of credit card form" width="350px" />
+</div>
+
 ## PII Detection Providers
 
 The project is currently setup to use Azure's PII Detection service and/or a custom prompt using the OpenAI API with GPT-4. Each PII detection provider can be enabled or disabled via appsettings.
